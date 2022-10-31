@@ -40,11 +40,12 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .index-picture {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
 }
 
@@ -65,4 +66,77 @@ nav {
     height: 5vh;
     background-color: #FAF9F6;
     border-top: solid 2px grey;
+}
+
+.about-me-main-container {
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-me-section {
+    margin: 30px 20px 20px 20px;
+    text-align: left;
+}
+
+.about-me-section p {
+    margin-top: 10px;
+}
+
+.hobbies {
+    text-align: left;
+    padding: 20px;
+    margin: 0px 20px;
+}
+
+.resume-social {
+    margin: 20px 20px;
+    background-color: #FAF9F6;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.resume {
+    text-align: center;
+    margin: 10px;
+}
+
+.resume a {
+    background-color: #D91E36;
+    text-decoration: none;
+    padding: 5px 20%;
+    color: white;
+    border-radius: 5px;
+}
+
+.resume h3 {
+    margin-bottom: 20px;
+}
+
+.social-media {
+    text-align: center;
+    margin: 10px;
+}
+
+.social-media h3 {
+    margin-bottom: 20px;
+}
+
+.fa-brands {
+    font-size: 60px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.fa-twitter {
+    color: #55ACEE;
+}
+
+.fa-instagram {
+    color: #125688;
+}
+
+.fa-linkedin-in {
+    color: #007bb5;
 }
