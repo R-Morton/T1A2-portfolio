@@ -6,7 +6,7 @@
 
 nav {
     height: 10vh;
-    background-color: #FAF9F6;
+    background-color: #EBEBEB;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -64,7 +64,7 @@ nav {
     align-items: center;
     width: 100vw;
     height: 5vh;
-    background-color: #FAF9F6;
+    background-color: #EBEBEB;
     border-top: solid 2px grey;
 }
 
@@ -91,7 +91,7 @@ nav {
 
 .resume-social {
     margin: 20px 20px;
-    background-color: #FAF9F6;
+    background-color: #EBEBEB;
     border-radius: 20px;
     box-shadow: 1px 1px 1px 1px grey;
 
@@ -108,6 +108,7 @@ nav {
     padding: 5px 20%;
     color: white;
     border-radius: 5px;
+    border: solid 1px black;
 }
 
 .resume h3 {
@@ -139,4 +140,63 @@ nav {
 
 .fa-linkedin-in {
     color: #007bb5;
+}
+
+.contact-me-main {
+    height: 85vh;
+}
+
+.contact-me {
+    margin: 20px;
+}
+
+.contact-me p {
+    font-size: 20px;
+}
+
+.fa-solid {
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.contact-me-list {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.contact-me h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sign-up-newsletter {
+    margin: 20px 0px;
+    background-color: #EBEBEB;
+    padding: 20px;
+    border-top: 2px solid grey;
+    border-bottom: 2px solid grey;
+}
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.sign-up input {
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    padding: 0px 5px;
+}
+
+#submit-button {
+    margin: auto;
+    margin-top: 20px;
+    width: 60%;
+    background-color: #D91E36;
+    height: 35px;
+    color: white;
+
 }
