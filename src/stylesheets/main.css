@@ -58,12 +58,13 @@ nav {
 
 .footer {
     display: flex;
-    position: fixed;
-    bottom: 0;
     justify-content: center;
     align-items: center;
-    width: 100vw;
     height: 5vh;
+    position: relative;
+    bottom: 0pt;
+    left: 0pt;
+    width: 100vw;
     background-color: #EBEBEB;
     border-top: solid 2px grey;
 }
@@ -147,7 +148,7 @@ nav {
 }
 
 .contact-me {
-    margin: 20px;
+    padding: 20px;
 }
 
 .contact-me p {
@@ -181,6 +182,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .sign-up input {
@@ -199,4 +201,53 @@ nav {
     height: 35px;
     color: white;
 
+}
+
+.blog-main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.blog-main h1 {
+    margin-top: 20px;
+}
+
+.blog1, .blog2, .blog3 {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px 20px 10px 20px;
+    margin-top: 20px;
+    background-color: #EBEBEB;
+    border-radius: 10px;
+    border: 2px solid grey;
+    box-shadow: 1px 1px 1px 1px grey;
+
+}
+
+.blog-image {
+    width: 80vw;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.blog-main .blog3 {
+    margin-bottom: 20px;
+}
+
+.blog-main a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #D91E36;
+}
+
+.main-blog-article {
+    height: 85vh;
 }
