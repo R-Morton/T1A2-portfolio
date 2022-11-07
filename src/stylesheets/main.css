@@ -48,7 +48,7 @@ nav {
 .front-container {
     background-color: #EBEBEB;
     width: 100vw;
-    padding: 15% 0px;
+    padding: 12% 0px;
     border-top: 2px solid grey;
     border-bottom: 2px solid grey;
 }
@@ -263,7 +263,7 @@ nav {
     margin-bottom: 10px;
 }
 
-.blog-main .blog3 {
+.blog1:last-child {
     margin-bottom: 8vh;
 }
 
@@ -294,7 +294,7 @@ nav {
     margin-bottom: 5vh;
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 600px) {
     .nav-buttons li {
         font-size: 30px;
     }
@@ -324,6 +324,15 @@ nav {
 
     .social-media-icons a {
         font-size: 90px;
+    }
+
+    #blog-title {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .blog1 {
+        margin-bottom: 20px;
     }
 
     .blog-image {
@@ -385,3 +394,113 @@ nav {
         font-size: 20px;
     }
 }
+
+@media only screen and (min-width: 1050px) {
+    nav {
+        height: 7vh;
+    }
+
+    .front-container {
+        display: flex;
+        padding: 5% 5vw;
+        width: 75vw;
+        align-items: center;
+        border: 2px solid grey;
+        border-radius: 20px;
+        box-shadow: 1px 1px 1px 1px grey;
+        height: 75%;
+    }
+
+    .main-container {
+        height: 88vh;
+    }
+
+    .heading-text {
+        height: 40%;
+        width: 50%;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .about-me-main-container {
+        flex-direction: row;
+        height: 90vh;
+    }
+
+    .left {
+        width: 50vw;
+    }
+
+    .resume-social {
+        margin: auto;
+        height: 40vh;
+        width: 40vw;
+    }
+
+    .social-media h3 {
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .blog-main {
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 88vh;
+    }
+
+    .blog1 {
+        width: 40%;
+        height: 40%;
+        margin-bottom: 10px;
+    }
+
+    .blog-image {
+        width: 90%;
+        height: 90%;
+        margin-bottom: 10px;
+    }
+
+    #blog-title {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .blog-article-image {
+        width: 50vw;
+        height: auto;
+    }
+
+    .contact-me-main {
+        height: 88vh;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .contact-me {
+        height: 50%;
+        width: 40%;
+        margin: auto;
+    }
+
+    .sign-up-newsletter {
+        width: 40%;
+        margin: auto;
+        height: 50vh;
+        border: 2px solid grey;
+        border-radius: 10px;
+        box-shadow: 1px 1px 1px 1px grey;
+    }
+
+    .sign-up {
+        width: 80%;
+        margin: auto;
+    }
+
+    #submit-button {
+        width: 50%;
+    }
+    
+
+}
+
