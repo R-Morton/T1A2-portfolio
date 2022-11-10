@@ -463,8 +463,9 @@ nav {
 }
 
 @media only screen and (min-width: 1050px) {
+
     nav {
-        height: 7vh;
+        height: 5vh;
     }
 
     .nav-buttons {
@@ -482,8 +483,21 @@ nav {
         height: 65%;
     }
 
+    .front-container h1 {
+        font-size: 50px;
+    }
+
+    .front-container h2 {
+        font-size: 38px;
+    }
+
+    .index-picture {
+        height: 400px;
+        width: 400px;
+    }
+
     .main-container {
-        height: 88vh;
+        height: 90vh;
     }
 
     .heading-text {
@@ -495,9 +509,20 @@ nav {
 
     .about-me-main-container {
         flex-direction: row;
-        height: 88vh;
+        height: 90vh;
         margin: 0;
+        font-size: 2em;
     }
+
+    .resume {
+        font-size: 1.5em;
+    }
+
+    .social-media h3 {
+        font-size: 1.5em;
+    }
+
+
 
     .left {
         width: 50vw;
@@ -505,8 +530,9 @@ nav {
 
     .resume-social {
         margin: auto;
-        height: 42vh;
+        height: auto;
         width: 40vw;
+        padding: 20px 0;
     }
 
     .social-media {
@@ -520,11 +546,17 @@ nav {
     }
 
     .blog-main {
-        height: auto;
+        height: 90vh;
     }
 
     .blog-main h1 {
         margin-bottom: 0;
+    }
+
+    #blog-title {
+        font-size: 2.5em;
+        margin-top: 0;
+        padding: 20px 0;
     }
 
     .blog-sections {
@@ -533,7 +565,9 @@ nav {
         justify-content: center;
         align-items: center;
         height: auto;
+        margin: auto;
         margin-bottom: 20px;
+        width: 70vw;
     }
 
     .blog-image {
@@ -541,8 +575,13 @@ nav {
     }
 
     .blog1 {
-        margin: 20px 100px 10px 100px;
+        margin: 20px 100px 60px 100px;
     }
+
+    .blog-article-main {
+        height: 90vh;
+    }
+
 
     .blog-article-image {
         width: 50vw;
@@ -550,7 +589,7 @@ nav {
     }
 
     .contact-me-main {
-        height: 88vh;
+        height: 90vh;
         display: flex;
         flex-direction: row;
     }
@@ -561,13 +600,40 @@ nav {
         margin: auto;
     }
 
+    .contact-me .fa-solid {
+        font-size: 50px;
+    }
+
+    .contact-me-list {
+        margin-bottom: 30px;
+    }
+
+    .contact-me h1 {
+        font-size: 3.5em;
+    }
+
+    .contact-me p {
+        font-size: 1.5em;
+    }
+
     .sign-up-newsletter {
         width: 40%;
         margin: auto;
-        height: 50vh;
+        height: auto;
         border: none;
         border-radius: 10px;
         box-shadow: 0 10px 20px;
+        padding: 20px 0;
+        font-size: 1.5em;
+    }
+
+    .sign-up-newsletter label {
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
+    .sign-up-newsletter input {
+        font-size: 1em;
     }
 
     .sign-up {
@@ -587,11 +653,5 @@ nav {
     .blog1:last-child {
         margin-bottom: 10px;
     }
-
-
-
-
-    
-
 }
 
