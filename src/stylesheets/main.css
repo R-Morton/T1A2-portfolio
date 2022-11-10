@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #CFDEE7;
+    background-color: #E4ECF1;
 }
 
 nav {
@@ -21,14 +21,13 @@ nav {
     display: flex;
     list-style: none;
     text-align: center;
-    width: 100vw;
+    width: 95vw;
     justify-content: space-around;
 }
 
 .nav-buttons li {
     margin: 0px 5px;
     text-align: center;
-    padding: 8px;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
@@ -39,6 +38,17 @@ nav {
     color: white;
 }
 
+.nav-hover {
+    transition: transform .5s;
+}
+
+.nav-hover:hover {
+    transform: scale(1.1);
+}
+
+.nav-buttons p {
+    color: white;
+}
 
 .main-container {
     height: 85vh;
@@ -79,7 +89,7 @@ nav {
 }
 
 .heading-text h1 {
-    border-bottom: groove 2px black;
+    border-bottom: solid 2px lightgray;
     padding-bottom: 10px;
 }
 
@@ -92,6 +102,7 @@ nav {
     width: 100vw;
     background-color: black;
     border-top: solid 2px white;
+    color: white;
 }
 
 .about-me-main-container {
@@ -99,7 +110,7 @@ nav {
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
-    background-color: #CFDEE7;
+    background-color: #E4ECF1;
     padding: 2%;
 }
 
@@ -122,7 +133,7 @@ nav {
 
 .resume-social {
     margin: 20px 20px 30px 20px;
-    background-color: white;
+    background-color: #FAF9F6;
     border-radius: 20px;
     box-shadow: 0 10px 20px;
 
@@ -221,7 +232,7 @@ nav {
 }
 
 .sign-up-newsletter h2 {
-    border-bottom: solid 2px #0A369D;
+    border-bottom: solid 2px lightgray;
     padding-bottom: 20px;
     text-align: center;
 }
@@ -266,7 +277,6 @@ nav {
 .blog-main {
     height: auto;
     text-align: center;
-    background-color: #CFDEE7;
 }
 
 .blog-sections {
@@ -276,30 +286,33 @@ nav {
 }
 
 .blog-main h1 {
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 30px;
 }
 
 .blog1 {
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 320px;
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 20px 20px 10px 20px;
     margin-top: 20px;
-    background-color: #92B4F4;
+    background-color: #FAF9F6;
     border-radius: 10px;
     box-shadow: 0 10px 20px;
 
 }
 
+.blog1 p {
+    margin-top: 15px;
+}
+
 .blog-image {
-    width: 80vw;
-    height: auto;
-    border-radius: 10px;
-    margin-bottom: 10px;
+    width: 100%;
+    height: 230px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .blog1:last-child {
@@ -308,9 +321,9 @@ nav {
 
 .blog-main a {
     text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 16px;
     color: black;
+    margin: 15px 0 20px 0;
 }
 
 .blog-article-main {
@@ -344,6 +357,10 @@ nav {
 }
 
 @media only screen and (min-width: 600px) {
+
+    .nav-buttons {
+        width: 80vw;
+    }
     .nav-buttons li {
         font-size: 30px;
     }
@@ -373,8 +390,11 @@ nav {
 
     .blog-main h1 {
         text-align: center;
-        margin: 10px 0px;
-        font-size: 46px;
+    }
+
+    .blog-sections {
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     .blog1 {
@@ -382,14 +402,8 @@ nav {
     }
 
     .blog-image {
-        width: 80vw;
-        height: auto;
+        width: 100%;
         margin-bottom: 15px;
-    }
-
-    .blog-main a {
-        font-size: 30px;
-        
     }
 
     .contact-me p {
@@ -491,7 +505,7 @@ nav {
 
     .resume-social {
         margin: auto;
-        height: 40vh;
+        height: 42vh;
         width: 40vw;
     }
 
@@ -516,23 +530,18 @@ nav {
     .blog-sections {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
         height: auto;
-    }
-
-    .blog1 {
-        width: 40vw;
-        height: auto;
-        margin-bottom: 10px;
-    }
-
-    .blog1:last-child {
-        margin-bottom: 0vh;
+        margin-bottom: 20px;
     }
 
     .blog-image {
-        width: 90%;
-        height: auto;
         margin-bottom: 10px;
+    }
+
+    .blog1 {
+        margin: 20px 100px 10px 100px;
     }
 
     .blog-article-image {
@@ -576,8 +585,9 @@ nav {
     }
 
     .blog1:last-child {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
+
 
 
 
