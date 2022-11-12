@@ -121,6 +121,10 @@ nav {
     text-align: left;
 }
 
+.about-me-section h1 {
+    margin-bottom: 20px;
+}
+
 .about-me-section p {
     margin-top: 10px;
     font-size: 20px;
@@ -131,6 +135,10 @@ nav {
     padding: 20px;
     margin: 0px 20px;
     font-size: 20px;
+}
+
+.hobbies h2 {
+    margin-bottom: 16px;
 }
 
 .resume-social {
@@ -289,7 +297,7 @@ nav {
 
 .blog-main h1 {
     margin-top: 15px;
-    font-size: 30px;
+    font-size: 22px;
 }
 
 .blog1 {
@@ -308,6 +316,7 @@ nav {
 
 .blog1 p {
     margin-top: 15px;
+    font-size: 16px;
 }
 
 .blog-image {
@@ -338,6 +347,11 @@ nav {
     margin: 0 2%;
     border-left: 2px solid lightgray;
     border-right: 2px solid lightgray;
+    height: 100%;
+}
+
+.blog-article p {
+    font-size: 16px;
 }
 
 .blog-article-image {
@@ -349,10 +363,11 @@ nav {
 
 .blog-article-h1 {
     margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .blog-article p:last-child {
-    margin-bottom: 5vh;
+    margin-bottom: 2vh;
 }
 
 @media only screen and (max-height: 800px) {
@@ -400,6 +415,15 @@ nav {
     .blog-sections {
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .blog-sections::after {
+        content: "";
+        flex: auto;
+    }
+
+    .blog1:last-child {
+        margin: 20px 32px;
     }
 
     .blog1 {
@@ -467,12 +491,9 @@ nav {
         font-size: 30px;
     }
 
-    .blog-article p {
-        font-size: 20px;
-    }
 }
 
-@media only screen and (min-width: 1050px) {
+@media only screen and (min-width: 1600px) {
 
     nav {
         height: 5vh;
@@ -520,6 +541,7 @@ nav {
         height: 90vh;
         margin: 0;
         font-size: 2em;
+        padding: 2% 6%;
     }
 
     .resume {
@@ -533,13 +555,14 @@ nav {
 
 
     .left {
-        width: 50vw;
+        width: 40vw;
+        margin-right: 50px;
     }
 
     .resume-social {
         margin: auto;
         height: auto;
-        width: 40vw;
+        width: 32vw;
         padding: 20px 0;
     }
 
@@ -553,9 +576,6 @@ nav {
         margin-bottom: 20px;
     }
 
-    .blog-main {
-        height: 90vh;
-    }
 
     .blog-main h1 {
         margin-bottom: 0;
@@ -567,6 +587,10 @@ nav {
         padding: 20px 0;
     }
 
+    .blog-main {
+        height: 90vh;
+    }
+
     .blog-sections {
         flex-direction: row;
         flex-wrap: wrap;
@@ -575,7 +599,7 @@ nav {
         height: auto;
         margin: auto;
         margin-bottom: 20px;
-        width: 70vw;
+        width: 1560px;
     }
 
     .blog-image {
@@ -590,6 +614,8 @@ nav {
     .blog-article-image {
         width: 30vw;
         height: auto;
+        float: left;
+        margin-right: 20px;
     }
 
     .blog-article {
@@ -597,7 +623,7 @@ nav {
         margin: auto;
         border-left: 2px solid lightgray;
         border-right: 2px solid lightgray;
-        padding: 0 40px;
+        padding: 20px 40px;
 
     }
 
@@ -664,7 +690,21 @@ nav {
     }
 
     .blog1:last-child {
+        margin: 20px 100px;
         margin-bottom: 60px;
     }
+
+    .blog-sections::after {
+        content: "";
+        flex: auto;
+    }
+
 }
 
+@media only screen and (min-width: 2500px) {
+
+    .blog-article-main {
+        height: 90vh;
+    }
+
+}
