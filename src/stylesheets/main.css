@@ -10,6 +10,7 @@ body {
     background-color: #E4ECF1;
 }
 
+/* nav bar styling */
 nav {
     height: 10vh;
     background-color: black;
@@ -65,6 +66,7 @@ nav {
     background-size: contain;
 }
 
+/* The element that has my photo and title */
 .front-container {
     background-color: #E4ECF1;
     width: 100vw;
@@ -98,6 +100,7 @@ nav {
     margin-bottom: 10px;
 }
 
+/* footer styling */
 .footer {
     display: flex;
     justify-content: center;
@@ -119,6 +122,7 @@ nav {
     padding: 2%;
 }
 
+/* contains the information about me */
 .about-me-section {
     margin: 30px 20px 20px 20px;
     text-align: left;
@@ -133,6 +137,7 @@ nav {
     font-size: 20px;
 }
 
+/* unordered list of my hobbies */
 .hobbies {
     text-align: left;
     padding: 20px;
@@ -227,6 +232,7 @@ nav {
     margin-right: 20px;
 }
 
+/* styling for the contact information element */
 .contact-me-list {
     display: flex;
     align-items: center;
@@ -238,6 +244,7 @@ nav {
     text-align: center;
 }
 
+/* styling for the sign up form element */
 .sign-up-newsletter {
     margin: 20px 0px 30px 0px;
     background-color: #FAF9F6;
