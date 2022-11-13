@@ -99,9 +99,9 @@ This sitemap displays that all the pages except for the individual blog article 
 
 
 ### Target Audience
-*Coder Academy lecturers
-*Future employers
-*Students
+* Coder Academy lecturers
+* Future employers
+* Students
 
 ### Tech stack
 HTML, CSS
