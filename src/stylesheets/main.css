@@ -1,3 +1,4 @@
+/* Creating default values for the whole website */
 * {
     margin: 0;
     padding: 0;
@@ -43,6 +44,7 @@ nav {
     transition: transform .5s;
 }
 
+/* Creating hover animation for nav bar buttons*/
 .nav-hover:hover {
     transform: scale(1.1);
 }
@@ -51,6 +53,7 @@ nav {
     color: white;
 }
 
+/* Adding background image for the index page */
 .main-container {
     height: 85vh;
     display: flex;
@@ -141,6 +144,7 @@ nav {
     margin-bottom: 16px;
 }
 
+/* Element that holds the resume link and social media links */
 .resume-social {
     margin: 20px 20px 30px 20px;
     background-color: #FAF9F6;
@@ -187,6 +191,7 @@ nav {
     justify-content: space-evenly;
 }
 
+/* All these indentifiers starting with .fa are setting the styles for font awesome icons */
 .fa-brands {
     font-size: 60px;
     text-decoration: none;
@@ -300,6 +305,7 @@ nav {
     font-size: 22px;
 }
 
+/* This is the element that holds the title, small description and link for the blog articles */
 .blog1 {
     display: flex;
     flex-direction: column;
@@ -377,12 +383,14 @@ nav {
     margin-bottom: 2vh;
 }
 
+/* This was added for tablets that had a longer screen in pixels so that the page would fit correctly */
 @media only screen and (max-height: 800px) {
     .contact-me-main {
         height: auto;
     }
 }
 
+/* These are the media queries that change the layout of pages to fit tablets */
 @media only screen and (min-width: 600px) {
 
     .nav-buttons {
@@ -502,6 +510,7 @@ nav {
 
 }
 
+/* These are the media queries that change the layout to fit desktop sizing */
 @media only screen and (min-width: 1600px) {
 
     nav {
@@ -708,6 +717,7 @@ nav {
 
 }
 
+/* This was added for 2k and 4k monitors to ensure this page would fit correctly as there was no scroll bar required for this size */
 @media only screen and (min-width: 2500px) {
 
     .blog-article-main {
